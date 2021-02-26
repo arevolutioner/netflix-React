@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import React, {useState, useContext, createContext} from 'react';
 import { Container, Title, Item, Inner, Header, Body } from './styles/accordion';
-
+ 
 const ToggleContext = createContext();
 
 export default function Accordion({children, ...restProps}) {
